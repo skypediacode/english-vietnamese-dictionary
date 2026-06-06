@@ -1,0 +1,34 @@
+Creative Commons Attribution-ShareAlike 4.0 International
+
+This database and repository are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.
+
+IMPORTANT: This repository contains processed data from the MinhQND Dictionary project (https://github.com/minhqnd/dictionary), which itself compiles data from multiple open-source linguistic resources.
+
+**Contributors to this version:**
+- Skypedia (github.com/skypediacode, 2026) – Database processing, example sentences, SQLite optimization
+- minhqnd (https://github.com/minhqnd/dictionary) – Original dictionary compilation and structure
+
+**Upstream open-source linguistic resources (via MinhQND Dictionary):**
+- Wiktionary (https://www.wiktionary.org) – CC BY-SA license
+- vntk/dictionary – CC BY-SA license
+- Hồ Ngọc Đức's Vietnamese Dictionary Project – Open-source Vietnamese lexical data
+- WikDict and open-dict-data (https://github.com/open-dict-data/ipa-dict) – CC BY-SA licenses
+
+See ATTRIBUTION.md for complete attribution and licensing information.
+
+YOU ARE FREE TO:
+
+- Share — copy and redistribute the database in any medium or format
+- Adapt — remix, transform, and build upon the database for any purpose, even commercially
+
+UNDER THE FOLLOWING CONDITIONS:
+
+- Attribution — You must give appropriate credit to the original creators and contributors (see ATTRIBUTION.md), provide a link to the license, and indicate if changes were made
+- ShareAlike — If you remix, transform, or build upon the database, you must distribute your contributions under the same CC BY-SA 4.0 license as the original
+
+For the full legal text of this license, visit:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+DISCLAIMER:
+
+This is a human-readable summary. For legal obligations, please refer to the full CC BY-SA 4.0 license at the URL above.

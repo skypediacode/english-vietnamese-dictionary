@@ -1,0 +1,18 @@
+# SQLite database temporary files
+*.db-wal
+*.db-shm
+*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary directories
+temp/
+tmp/
