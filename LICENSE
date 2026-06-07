@@ -5,8 +5,11 @@ This database and repository are licensed under the Creative Commons Attribution
 IMPORTANT: This repository contains processed data from the MinhQND Dictionary project (https://github.com/minhqnd/dictionary), which itself compiles data from multiple open-source linguistic resources.
 
 **Contributors to this version:**
-- Skypedia (github.com/skypediacode, 2026) – Database processing, example sentences, SQLite optimization
+- Skypedia (github.com/skypediacode, 2026) – Database processing, example sentences, headword validation, SQLite optimization
 - minhqnd (https://github.com/minhqnd/dictionary) – Original dictionary compilation and structure
+
+**Reference data sources:**
+- OVDP (Open Vietnamese Dictionary Project) (https://sourceforge.net/projects/ovdp/) – GPLv2 license – Used as reference for validating and correcting 15,000+ English headword entries
 
 **Upstream open-source linguistic resources (via MinhQND Dictionary):**
 - Wiktionary (https://www.wiktionary.org) – CC BY-SA license

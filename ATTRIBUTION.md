@@ -1,6 +1,6 @@
 # Attribution
 
-This database is derived from the **MinhQND Dictionary** project (https://github.com/minhqnd/dictionary), with the primary enhancement being **generated learner-friendly example sentences**. 
+This database is derived from the **MinhQND Dictionary** project (https://github.com/minhqnd/dictionary), with the primary enhancement being **generated learner-friendly example sentences**.
 
 MinhQND Dictionary itself compiles data from multiple open-source dictionary and linguistic resources (Wiktionary, vntk/dictionary, and Hồ Ngọc Đức's Vietnamese Dictionary Project).
 
@@ -14,6 +14,9 @@ This project transforms and enhances the MinhQND data with additional example se
 
 - Database processing and SQLite schema design
 - Example sentence generation
+- IPA fix for the original minhqnd data
+- **Headword validation and correction:** Used [OVDP (Open Vietnamese Dictionary Project)](https://sourceforge.net/projects/ovdp/) as reference to correct over 15,000 corrupted English headwords, including plural-to-singular normalization and common spelling errors (e.g., y → i)
+- Database optimization: removed orphaned definitions, noise words, unused columns, VACUUM (89.4 MB → 41 MB)
 - Repository creation and documentation
 
 This version builds upon and enhances the upstream sources through data curation, validation, and transformation into a comprehensive, queryable SQLite database.
@@ -31,6 +34,16 @@ This version builds upon and enhances the upstream sources through data curation
 **Contribution:** English-Vietnamese dictionary database with 357,729+ vocabulary entries, including definitions, IPA pronunciations, synonyms, and examples.
 
 **Usage in this project:** This database is built from the MinhQND Dictionary's data export. The primary enhancement is the addition of learner-friendly generated example sentences and transformation into SQLite format.
+
+---
+
+## Reference Data Sources
+
+### OVDP (Open Vietnamese Dictionary Project)
+
+**Source:** https://sourceforge.net/projects/ovdp/ | **License:** GPLv2
+
+Used as reference to validate and correct 15,000+ corrupted English headwords in MinhQND Dictionary (plural-to-singular normalization, spelling corrections, etc.). The corrected vocabulary was merged into the CC BY-SA 4.0 licensed MinhQND base.
 
 ---
 
@@ -64,10 +77,13 @@ The MinhQND Dictionary itself compiles data from multiple open-source resources:
 
 This dataset has undergone:
 
-- **Filtering:** Removal of non-learner-friendly entries
+- **Filtering:** Removal of non-learner-friendly entries; removed 215 noise words (non-ASCII or special chars)
 - **Validation:** Verification of English-Vietnamese translation pairs
+- **Spell-checking:** Pipeline to detect and fix 4,444 spelling errors
+- **IPA fix:** Corrected IPA data from the original minhqnd source
 - **Enrichment:** Addition of example sentences for educational use
 - **Formatting:** Normalization for SQLite storage and efficient querying
+- **Optimization:** Removed 270,000+ orphaned definitions, dropped unused columns and analysis tables, VACUUM applied (89.4 MB → 41 MB)
 
 ### Example Sentences
 
@@ -96,7 +112,7 @@ If you redistribute or create derivatives from this database, you must:
 
 ### Recommended Attribution
 
-> This SQLite dictionary database was created by Skypedia (https://github.com/skypediacode) based on the MinhQND Dictionary project (https://github.com/minhqnd/dictionary), with added learner-friendly example sentences. Originally sourced from Wiktionary and other open-source linguistic resources. Licensed under CC BY-SA 4.0. See ATTRIBUTION.md for full details.
+> This SQLite dictionary database was created by Skypedia (https://github.com/skypediacode) based on the MinhQND Dictionary project (https://github.com/minhqnd/dictionary), with added learner-friendly example sentences and data validation using OVDP references. Originally sourced from Wiktionary and other open-source linguistic resources. Licensed under CC BY-SA 4.0. See ATTRIBUTION.md for full details.
 
 ## Questions?
 
