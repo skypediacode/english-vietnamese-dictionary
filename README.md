@@ -1,18 +1,18 @@
 # 📖 Cơ sở dữ liệu Từ điển Anh–Việt (SQLite) Miễn Phí
 
-**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline)** với 109,924 từ vựng và 162,124 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ**, kích thước siêu nhẹ chỉ 41 MB, không cần kết nối internet.
+**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline)** với 109,907 từ vựng và 162,124 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ**, kích thước siêu nhẹ chỉ 42 MB, không cần kết nối internet.
 
 Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), dự án xử lý ngôn ngữ tự nhiên (NLP), AI, và tích hợp mobile/web app.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
 ![Words](https://img.shields.io/badge/Words-109.9k+-green)
 ![Definitions](https://img.shields.io/badge/Definitions-162.1k+-orange)
-![IPA](https://img.shields.io/badge/IPA-71.1k+-informational)
+![IPA](https://img.shields.io/badge/IPA-75.8k+-informational)
 ![Examples](https://img.shields.io/badge/Examples-180.9k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Điểm khác biệt cốt lõi:** Phiên bản này đã bổ sung đầy đủ **180,000 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa lỗi các mục từ và lỗi IPA, đồng thời tối ưu giảm dung lượng từ 170MB xuống chỉ còn 41MB.
+> **Điểm khác biệt cốt lõi:** Phiên bản này đã bổ sung đầy đủ **180,000 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa lỗi các mục từ và lỗi IPA, đồng thời tối ưu giảm dung lượng từ 170MB xuống chỉ còn 42MB.
 
 **Tác giả**: [Skypedia](skypediacode@gmail.com)
 
@@ -20,21 +20,21 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 
 ## ✨ Tính Năng Nổi Bật
 
-- 📚 **109,924 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
+- 📚 **109,907 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
 - 🔤 **162,124 định nghĩa tiếng Việt** chính xác.
-- 🔊 **71,051 phiên âm IPA** (độ bao phủ 64.6%).
-- 💬 **180,928 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
-- 🚀 **Siêu nhẹ chỉ 41 MB**: Dễ dàng nhúng vào các ứng dụng di động.
+- 🔊 **75,812 phiên âm IPA** (độ bao phủ 68.0%).
+- 💬 **180,912 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
+- 🚀 **Siêu nhẹ chỉ 42 MB**: Dễ dàng nhúng vào các ứng dụng di động.
 - 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API, không cần internet.
 - ✅ **Chất lượng Production**: Đã qua bước kiểm tra chính tả, xác thực từ, loại bỏ rác và trùng lặp.
 
 ## 📊 Thống Kê Dữ Liệu
 
-- **Cặp từ-định nghĩa:** 180,928
-- **Câu ví dụ:** 180,928 (100% coverage)
-- **Phiên âm IPA:** 71,051 (64.6% coverage)
-- **Kích thước CSDL:** 41 MB (giảm 75% từ bản gốc 170 MB)
+- **Cặp từ-định nghĩa:** 180,912
+- **Câu ví dụ:** 180,912 (100% coverage)
+- **Phiên âm IPA:** 75,812 (68.0% coverage)
+- **Kích thước CSDL:** 42 MB (giảm 75% từ bản gốc 170 MB)
 
 > [!TIP]
 > Xem thêm tại [`stats.md`](stats.md) để biết chi tiết quá trình làm sạch dữ liệu và tối ưu hóa database.
@@ -149,19 +149,19 @@ Cơ sở dữ liệu và kho lưu trữ này được cấp phép dưới **Crea
 
 # 📖 Free English–Vietnamese Dictionary Database (SQLite)
 
-**Offline English-Vietnamese dictionary database** featuring 109,924 vocabulary words and 162,124 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of just 41 MB, and requires zero internet connection.
+**Offline English-Vietnamese dictionary database** featuring 109,907 vocabulary words and 162,124 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of just 42 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
 ![Words](https://img.shields.io/badge/Words-109.9k+-green)
 ![Definitions](https://img.shields.io/badge/Definitions-162.1k+-orange)
-![IPA](https://img.shields.io/badge/IPA-71.1k+-informational)
+![IPA](https://img.shields.io/badge/IPA-75.8k+-informational)
 ![Examples](https://img.shields.io/badge/Examples-180.9k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **180,000 standard example sentences** for ALL definitions, corrects entry and IPA errors, and drastically reduces the database size from 170MB down to just 41MB.
+> **Core Difference:** This version is fully enriched with **180,000 standard example sentences** for ALL definitions, corrects entry and IPA errors, and drastically reduces the database size from 170MB down to just 42MB.
 
 **Author**: [Skypedia](skypediacode@gmail.com)
 
@@ -169,21 +169,21 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 
 ## ✨ Key Features
 
-- 📚 **109,924 English words** with full Vietnamese definitions.
+- 📚 **109,907 English words** with full Vietnamese definitions.
 - 🔤 **162,124 accurate Vietnamese definitions**.
-- 🔊 **71,051 IPA pronunciations** (64.6% coverage).
-- 💬 **180,928 example sentences** (100% coverage - every definition has at least one example).
-- 🚀 **Ultra-lightweight (41 MB)**: Easy to embed into mobile applications.
+- 🔊 **75,812 IPA pronunciations** (68.0% coverage).
+- 💬 **180,912 example sentences** (100% coverage - every definition has at least one example).
+- 🚀 **Ultra-lightweight (42 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
 - ✅ **Production-ready**: Spell-checked, validated, deduplicated, and noise-free.
 
 ## 📊 Data Statistics
 
-- **Word-Definition Pairs:** 180,928
-- **Example Sentences:** 180,928 (100% coverage)
-- **IPA Pronunciations:** 71,051 (64.6% coverage)
-- **Database Size:** 41 MB (reduced by 75% from the original 170 MB)
+- **Word-Definition Pairs:** 180,912
+- **Example Sentences:** 180,912 (100% coverage)
+- **IPA Pronunciations:** 75,812 (68.0% coverage)
+- **Database Size:** 42 MB (reduced by 75% from the original 170 MB)
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.
