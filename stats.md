@@ -56,7 +56,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 
 ### Tóm tắt tối ưu hóa
 
-- Dọn dẹp từ điển: Xóa các mục từ bị lỗi/hỏng (corrupted entries) và các từ mượn/phiên âm tiếng nước ngoài (foreign/transliteration entries).
+- Dọn dẹp từ điển: xóa các mục từ bị lỗi/hỏng (corrupted entries) và các từ mượn/phiên âm tiếng nước ngoài (foreign/transliteration entries).
 - Chuẩn hóa ký tự dấu nháy đơn (apostrophes) đối với tất cả các mục từ (headwords).
 - Theme các câu ví dụ tiếng Anh dễ hiểu cho người học (AI tạo và xác thực)
 - Đã thêm và sửa rất nhiều dữ liệu IPA so với nguồn minhqnd gốc
