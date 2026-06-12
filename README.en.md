@@ -1,6 +1,8 @@
 # 📖 Free & Offline English–Vietnamese Dictionary Database (SQLite)
 
-**Offline and Free English-Vietnamese dictionary database** featuring 109,907 vocabulary words and 162,124 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of just 42 MB, and requires zero internet connection.
+[Tiếng Việt](README.md) | **English**
+
+**Offline and Free English-Vietnamese dictionary database** featuring 109,907 vocabulary words and 162,124 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of just 43 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
@@ -12,9 +14,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **180,000 standard example sentences** for ALL definitions, corrects numerous entry and IPA errors, and drastically reduces the database size from 170MB down to just 42MB.
-
-[Tiếng Việt](README.md) | **English**
+> **Core Difference:** This version is fully enriched with **180,000 standard example sentences** for ALL definitions, corrects numerous entry and IPA errors, and drastically reduces the database size from 170MB down to just 43MB.
 
 ---
 
@@ -24,7 +24,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 - 🔤 **162,124 accurate Vietnamese definitions**.
 - 🔊 **75,812 IPA pronunciations** (68.0% coverage).
 - 💬 **180,912 example sentences** (100% coverage - every definition has at least one example).
-- 🚀 **Ultra-lightweight (42 MB)**: Easy to embed into mobile applications.
+- 🚀 **Ultra-lightweight (43 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
 - ✅ **Production-ready**: Spell-checked, validated, deduplicated, and noise-free.
@@ -34,7 +34,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 - **Word-Definition Pairs:** 180,912
 - **Example Sentences:** 180,912 (100% coverage)
 - **IPA Pronunciations:** 75,812 (68.0% coverage)
-- **Database Size:** 42 MB (reduced by 75% from the original 170 MB)
+- **Database Size:** 43 MB (reduced by 75% from the original 170 MB)
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.

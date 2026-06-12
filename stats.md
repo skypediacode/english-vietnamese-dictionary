@@ -15,7 +15,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Cặp từ-định nghĩa        | 180,912  |
 | Phiên âm IPA             | 75,812   |
 | Câu ví dụ                | 180,912  |
-| Kích thước cơ sở dữ liệu | 42 MB    |
+| Kích thước cơ sở dữ liệu | 43 MB    |
 
 ### Phạm vi định nghĩa
 
@@ -43,7 +43,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Nén              | Không nén |
 | Kích thước trang | 4096 byte |
 | Mã hóa           | UTF-8     |
-| Kích thước tệp   | 42 MB     |
+| Kích thước tệp   | 43 MB     |
 
 ### Kích thước bảng
 
@@ -96,7 +96,7 @@ This SQLite dictionary database contains comprehensive English-Vietnamese transl
 | Word-Definition Pairs  | 180,912 |
 | IPA Pronunciations     | 75,812  |
 | Example Sentences      | 180,912 |
-| Database Size          | 42 MB   |
+| Database Size          | 43 MB   |
 
 ### Definition Coverage
 
@@ -124,7 +124,7 @@ IPA coverage varies because pronunciation data is not available for every entry.
 | Compression | Uncompressed |
 | Page Size   | 4096 bytes   |
 | Encoding    | UTF-8        |
-| File Size   | 42 MB        |
+| File Size   | 43 MB        |
 
 ### Table Sizes
 

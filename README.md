@@ -1,6 +1,8 @@
 # 📖 CSDL Từ điển Anh–Việt Offline & Miễn Phí (SQLite)
 
-**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 109,907 từ vựng và 162,124 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ**, kích thước siêu nhẹ chỉ 42 MB, không cần kết nối internet.
+**Tiếng Việt** | [English](README.en.md)
+
+**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 109,907 từ vựng và 162,124 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ**, kích thước siêu nhẹ chỉ 43 MB, không cần kết nối internet.
 
 Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), dự án xử lý ngôn ngữ tự nhiên (NLP), AI, và tích hợp mobile/web app.
 
@@ -12,9 +14,7 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Điểm khác biệt cốt lõi:** Phiên bản này đã bổ sung đầy đủ **180,000 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa rất nhiều lỗi các mục từ và IPA, đồng thời tối ưu giảm dung lượng từ 170MB xuống chỉ còn 42MB.
-
-**Tiếng Việt** | [English](README.en.md)
+> **Điểm khác biệt cốt lõi:** Phiên bản này đã bổ sung đầy đủ **180,000 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa rất nhiều lỗi các mục từ và IPA, đồng thời tối ưu giảm dung lượng từ 170MB xuống chỉ còn 43MB.
 
 ---
 
@@ -24,7 +24,7 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 - 🔤 **162,124 định nghĩa tiếng Việt** chính xác.
 - 🔊 **75,812 phiên âm IPA** (độ bao phủ 68.0%).
 - 💬 **180,912 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
-- 🚀 **Siêu nhẹ chỉ 42 MB**: Dễ dàng nhúng vào các ứng dụng di động.
+- 🚀 **Siêu nhẹ chỉ 43 MB**: Dễ dàng nhúng vào các ứng dụng di động.
 - 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API, không cần internet.
 - ✅ **Chất lượng Production**: Đã qua bước kiểm tra chính tả, xác thực từ, loại bỏ rác và trùng lặp.
@@ -34,7 +34,7 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 - **Cặp từ-định nghĩa:** 180,912
 - **Câu ví dụ:** 180,912 (100% coverage)
 - **Phiên âm IPA:** 75,812 (68.0% coverage)
-- **Kích thước CSDL:** 42 MB (giảm 75% từ bản gốc 170 MB)
+- **Kích thước CSDL:** 43 MB (giảm 75% từ bản gốc 170 MB)
 
 > [!TIP]
 > Xem thêm tại [`stats.md`](stats.md) để biết chi tiết quá trình làm sạch dữ liệu và tối ưu hóa database.
