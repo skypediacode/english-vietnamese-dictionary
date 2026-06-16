@@ -10,30 +10,30 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 
 | Chỉ số                   | Số lượng |
 | ------------------------ | -------- |
-| Từ tiếng Anh             | 109,907  |
-| Định nghĩa tiếng Việt    | 162,124  |
-| Cặp từ-định nghĩa        | 180,912  |
-| Phiên âm IPA             | 75,812   |
-| Câu ví dụ                | 180,912  |
-| Kích thước cơ sở dữ liệu | 43 MB    |
+| Từ tiếng Anh             | 101,216  |
+| Định nghĩa tiếng Việt    | 153,869  |
+| Cặp từ-định nghĩa        | 171,100  |
+| Phiên âm IPA             | 83,854   |
+| Câu ví dụ                | 171,100  |
+| Kích thước cơ sở dữ liệu | ~43 MB   |
 
 ### Phạm vi định nghĩa
 
 | Danh mục          | Số lượng | Phần trăm |
 | ----------------- | -------- | --------- |
-| Cặp từ-định nghĩa | 180,912  | 100%      |
-| Cặp có ví dụ      | 180,912  | 100%      |
+| Cặp từ-định nghĩa | 171,100  | 100%      |
+| Cặp có ví dụ      | 171,100  | 100%      |
 | Cặp thiếu ví dụ   | 0        | 0%        |
 
 ### Phạm vi phiên âm
 
 | Danh mục        | Số lượng |
 | --------------- | -------- |
-| Tổng số từ      | 109,907  |
-| Từ có IPA       | 74,791   |
-| Từ không có IPA | 35,116   |
+| Tổng số từ      | 101,216  |
+| Từ có IPA       | 79,879   |
+| Từ không có IPA | 21,337   |
 
-**Lưu ý:** Cơ sở dữ liệu tập trung vào những từ phổ biến và quan trọng nhất, điều này giải thích phạm vi IPA 68.0%.
+**Lưu ý:** Cơ sở dữ liệu tập trung vào những từ phổ biến và quan trọng nhất, điều này giải thích phạm vi IPA 78.92%.
 
 ### Đặc điểm tệp cơ sở dữ liệu
 
@@ -43,16 +43,16 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Nén              | Không nén |
 | Kích thước trang | 4096 byte |
 | Mã hóa           | UTF-8     |
-| Kích thước tệp   | 43 MB     |
+| Kích thước tệp   | ~43 MB    |
 
 ### Kích thước bảng
 
 | Bảng             | Số bản ghi |
 | ---------------- | ---------- |
-| words            | 109,907    |
-| definitions      | 162,124    |
-| word_definitions | 180,912    |
-| pronunciations   | 75,812     |
+| words            | 101,216    |
+| definitions      | 153,869    |
+| word_definitions | 171,100    |
+| pronunciations   | 83,854     |
 
 ### Tóm tắt tối ưu hóa
 
@@ -91,28 +91,28 @@ This SQLite dictionary database contains comprehensive English-Vietnamese transl
 
 | Metric                 | Count   |
 | ---------------------- | ------- |
-| English Words          | 109,907 |
-| Vietnamese Definitions | 162,124 |
-| Word-Definition Pairs  | 180,912 |
-| IPA Pronunciations     | 75,812  |
-| Example Sentences      | 180,912 |
-| Database Size          | 43 MB   |
+| English Words          | 101,216 |
+| Vietnamese Definitions | 153,869 |
+| Word-Definition Pairs  | 171,100 |
+| IPA Pronunciations     | 83,854  |
+| Example Sentences      | 171,100 |
+| Database Size          | ~43 MB  |
 
 ### Definition Coverage
 
 | Category               | Count   | Percentage |
 | ---------------------- | ------- | ---------- |
-| Word-Definition Pairs  | 180,912 | 100%       |
-| Pairs with Examples    | 180,912 | 100%       |
+| Word-Definition Pairs  | 171,100 | 100%       |
+| Pairs with Examples    | 171,100 | 100%       |
 | Pairs Missing Examples | 0       | 0%         |
 
 ### Pronunciation Coverage
 
 | Category          | Count   | Percentage |
 | ----------------- | ------- | ---------- |
-| Total Words       | 109,907 | 100%       |
-| Words with IPA    | 74,791  | 68.0%      |
-| Words without IPA | 35,116  | 32.0%      |
+| Total Words       | 101,216 | 100%       |
+| Words with IPA    | 79,879  | 78.92%     |
+| Words without IPA | 21,337  | 21.08%     |
 
 IPA coverage varies because pronunciation data is not available for every entry.
 
@@ -124,16 +124,16 @@ IPA coverage varies because pronunciation data is not available for every entry.
 | Compression | Uncompressed |
 | Page Size   | 4096 bytes   |
 | Encoding    | UTF-8        |
-| File Size   | 43 MB        |
+| File Size   | ~43 MB       |
 
 ### Table Sizes
 
 | Table            | Record Count |
 | ---------------- | ------------ |
-| words            | 109,907      |
-| definitions      | 162,124      |
-| word_definitions | 180,912      |
-| pronunciations   | 75,812       |
+| words            | 101,216      |
+| definitions      | 153,869      |
+| word_definitions | 171,100      |
+| pronunciations   | 83,854       |
 
 ### Optimization Summary
 

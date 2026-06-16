@@ -15,8 +15,9 @@ This project transforms and enhances the MinhQND data with additional example se
 - Database processing and SQLite schema design
 - Example sentence generation
 - IPA fix for the original minhqnd data
+- Local IPA backfill and database-wide pronunciation audit
 - **Headword validation and correction:** Used [OVDP (Open Vietnamese Dictionary Project)](https://sourceforge.net/projects/ovdp/) as reference to correct over 15,000 corrupted English headwords, including plural-to-singular normalization and common spelling errors (e.g., y → i)
-- Database optimization: removed orphaned definitions, noise words, unused columns, VACUUM (89.4 MB → 41 MB)
+- Database optimization: removed orphaned definitions, double-word/ordinal entries, noise words, unused columns, standardized pronunciations, and applied VACUUM (database now ~43 MB from the original 170 MB)
 - Repository creation and documentation
 
 This version builds upon and enhances the upstream sources through data curation, validation, and transformation into a comprehensive, queryable SQLite database.
@@ -83,7 +84,7 @@ This dataset has undergone:
 - **IPA fix:** Corrected IPA data from the original minhqnd source
 - **Enrichment:** Addition of example sentences for educational use
 - **Formatting:** Normalization for SQLite storage and efficient querying
-- **Optimization:** Removed 270,000+ orphaned definitions, dropped unused columns and analysis tables, VACUUM applied (89.4 MB → 41 MB)
+- **Optimization:** Removed orphaned definitions, double-word/ordinal entries, standardized pronunciations, dropped unused columns and analysis tables, VACUUM applied (database now ~43 MB from the original 170 MB)
 
 ### Example Sentences
 

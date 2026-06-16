@@ -2,28 +2,28 @@
 
 [Tiếng Việt](README.md) | **English**
 
-**Offline and Free English-Vietnamese dictionary database** featuring 109,907 vocabulary words and 162,124 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of just 43 MB, and requires zero internet connection.
+**Offline and Free English-Vietnamese dictionary database** featuring 101,216 vocabulary words and 153,869 detailed definitions. Specially optimized with **100% example sentence coverage**, an ultra-lightweight size of about 43 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Words](https://img.shields.io/badge/Words-109.9k+-green)
-![Definitions](https://img.shields.io/badge/Definitions-162.1k+-orange)
-![IPA](https://img.shields.io/badge/IPA-75.8k+-informational)
-![Examples](https://img.shields.io/badge/Examples-180.9k+-purple)
+![Words](https://img.shields.io/badge/Words-101.2k+-green)
+![Definitions](https://img.shields.io/badge/Definitions-153.9k+-orange)
+![IPA](https://img.shields.io/badge/IPA-83.9k+-informational)
+![Examples](https://img.shields.io/badge/Examples-171.1k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **180,000 standard example sentences** for ALL definitions, corrects numerous entry and IPA errors, and drastically reduces the database size from 170MB down to just 43MB.
+> **Core Difference:** This version is fully enriched with **171,100 standard example sentences** for ALL definitions, corrects numerous entry and IPA errors, and standardizes pronunciation data with a local IPA backfill plus a database-wide audit.
 
 ---
 
 ## ✨ Key Features
 
-- 📚 **109,907 English words** with full Vietnamese definitions.
-- 🔤 **162,124 accurate Vietnamese definitions**.
-- 🔊 **75,812 IPA pronunciations** (68.0% coverage).
-- 💬 **180,912 example sentences** (100% coverage - every definition has at least one example).
+- 📚 **101,216 English words** with full Vietnamese definitions.
+- 🔤 **153,869 accurate Vietnamese definitions**.
+- 🔊 **83,854 IPA pronunciations** on **79,879 words with IPA** (78.92% coverage).
+- 💬 **171,100 example sentences** (100% coverage - every definition has at least one example).
 - 🚀 **Ultra-lightweight (43 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
@@ -31,10 +31,10 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 
 ## 📊 Data Statistics
 
-- **Word-Definition Pairs:** 180,912
-- **Example Sentences:** 180,912 (100% coverage)
-- **IPA Pronunciations:** 75,812 (68.0% coverage)
-- **Database Size:** 43 MB (reduced by 75% from the original 170 MB)
+- **Word-Definition Pairs:** 171,100
+- **Example Sentences:** 171,100 (100% coverage)
+- **IPA Pronunciations:** 83,854 (79,879 words with IPA, 78.92% coverage)
+- **Database Size:** about 43 MB
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.
@@ -53,7 +53,7 @@ Built upon the original **[MinhQND Dictionary](https://github.com/minhqnd/dictio
 - Added learner-friendly example sentences (100% coverage, validated).
 - Standardized and added IPA pronunciations.
 - Used **[OVDP](https://sourceforge.net/projects/ovdp/)** to fix over 20,000 corrupted English entries.
-- Data cleanup: Removed 273,073 orphaned definitions, ran VACUUM to drastically optimize the database.
+- Data cleanup: removed numerous double-word/ordinal entries and orphaned definitions, backfilled many pronunciation records and standardized the full pronunciation table.
 
 **Original references:** MinhQND Dictionary, Wiktionary, vntk/dictionary, Hồ Ngọc Đức's Vietnamese Dictionary, WikDict.
 See [`ATTRIBUTION.md`](ATTRIBUTION.md) for full licensing details.
