@@ -10,30 +10,30 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 
 | Chỉ số                   | Số lượng |
 | ------------------------ | -------- |
-| Từ tiếng Anh             | 101,216  |
-| Định nghĩa tiếng Việt    | 153,869  |
-| Cặp từ-định nghĩa        | 171,100  |
-| Phiên âm IPA             | 83,854   |
-| Câu ví dụ                | 171,100  |
-| Kích thước cơ sở dữ liệu | ~43 MB   |
+| Từ tiếng Anh             | 101,029  |
+| Từ tiếng Việt            | 175      |
+| Tổng số từ               | 101,204  |
+| Định nghĩa tiếng Việt    | 153,841  |
+| Cặp từ-định nghĩa        | 171,072  |
+| Phiên âm IPA             | 105,179  |
+| Câu ví dụ                | 171,072  |
+| Kích thước cơ sở dữ liệu | ~45 MB   |
 
 ### Phạm vi định nghĩa
 
 | Danh mục          | Số lượng | Phần trăm |
 | ----------------- | -------- | --------- |
-| Cặp từ-định nghĩa | 171,100  | 100%      |
-| Cặp có ví dụ      | 171,100  | 100%      |
+| Cặp từ-định nghĩa | 171,072  | 100%      |
+| Cặp có ví dụ      | 171,072  | 100%      |
 | Cặp thiếu ví dụ   | 0        | 0%        |
 
 ### Phạm vi phiên âm
 
-| Danh mục        | Số lượng |
-| --------------- | -------- |
-| Tổng số từ      | 101,216  |
-| Từ có IPA       | 79,879   |
-| Từ không có IPA | 21,337   |
-
-**Lưu ý:** Cơ sở dữ liệu tập trung vào những từ phổ biến và quan trọng nhất, điều này giải thích phạm vi IPA 78.92%.
+| Danh mục        | Số lượng | Phần trăm |
+| --------------- | -------- | --------- |
+| Tổng số từ      | 101,204  | 100%      |
+| Từ có IPA       | 101,204  | 100%      |
+| Từ không có IPA | 0        | 0%        |
 
 ### Đặc điểm tệp cơ sở dữ liệu
 
@@ -43,28 +43,30 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Nén              | Không nén |
 | Kích thước trang | 4096 byte |
 | Mã hóa           | UTF-8     |
-| Kích thước tệp   | ~43 MB    |
+| Kích thước tệp   | ~45 MB    |
 
 ### Kích thước bảng
 
 | Bảng             | Số bản ghi |
 | ---------------- | ---------- |
-| words            | 101,216    |
-| definitions      | 153,869    |
-| word_definitions | 171,100    |
-| pronunciations   | 83,854     |
+| words            | 101,204    |
+| definitions      | 153,841    |
+| word_definitions | 171,072    |
+| pronunciations   | 105,179    |
 
 ### Tóm tắt tối ưu hóa
 
 - Dọn dẹp từ điển: xóa các mục từ bị lỗi/hỏng (corrupted entries) và các từ mượn/phiên âm tiếng nước ngoài (foreign/transliteration entries).
 - Chuẩn hóa ký tự dấu nháy đơn (apostrophes) đối với tất cả các mục từ (headwords).
-- Theme các câu ví dụ tiếng Anh dễ hiểu cho người học (AI tạo và xác thực)
-- Đã thêm và sửa rất nhiều dữ liệu IPA so với nguồn minhqnd gốc
-- Khắc phục lỗi sai từ của 15.000+ từ trong từ điển gốc (ví dụ abiliti, fluentli --> ability, fluently hay số nhiều zippers --> zipper)
-- Kiểm tra chính tả (spelling) + loại bỏ cột `definitions.links` không sử dụng
-- Đã loại bỏ hơn 270,000 mục từ không có định nghĩa (không có liên kết `word_definitions`) + các từ nhiễu (không phải ký tự ASCII hoặc chứa các ký tự đặc biệt: `$%!&=[]{}@#^*~\|`)
-- Đã xóa các bảng phân tích `sqlite_stat1` / `sqlite_stat4`
-- Chạy `VACUUM` để tối ưu kích thước từ điển
+- Thêm các câu ví dụ tiếng Anh dễ hiểu cho người học (AI tạo và xác thực).
+- Đã thêm và sửa rất nhiều dữ liệu IPA so với nguồn minhqnd gốc.
+- Khắc phục lỗi sai từ của 15.000+ từ trong từ điển gốc (ví dụ abiliti, fluentli --> ability, fluently hay số nhiều zippers --> zipper).
+- Kiểm tra chính tả (spelling) + loại bỏ cột `definitions.links` không sử dụng.
+- Đã loại bỏ hơn 270,000 mục từ không có định nghĩa (không có liên kết `word_definitions`) + các từ nhiễu (không phải ký tự ASCII hoặc chứa các ký tự đặc biệt: `$%!&=[]{}@#^*~\|`).
+- Giải quyết triệt để các phiên âm IPA tiếng Anh bị thiếu (độ bao phủ IPA đạt 100%).
+- Dọn dẹp các từ không hợp lệ và định nghĩa không còn sử dụng.
+- Đã xóa các bảng phân tích `sqlite_stat1` / `sqlite_stat4`.
+- Chạy `VACUUM` để tối ưu kích thước từ điển.
 
 ---
 
@@ -91,30 +93,32 @@ This SQLite dictionary database contains comprehensive English-Vietnamese transl
 
 | Metric                 | Count   |
 | ---------------------- | ------- |
-| English Words          | 101,216 |
-| Vietnamese Definitions | 153,869 |
-| Word-Definition Pairs  | 171,100 |
-| IPA Pronunciations     | 83,854  |
-| Example Sentences      | 171,100 |
-| Database Size          | ~43 MB  |
+| English Words          | 101,029 |
+| Vietnamese Words       | 175     |
+| Total Words            | 101,204 |
+| Vietnamese Definitions | 153,841 |
+| Word-Definition Pairs  | 171,072 |
+| IPA Pronunciations     | 105,179 |
+| Example Sentences      | 171,072 |
+| Database Size          | ~45 MB  |
 
 ### Definition Coverage
 
 | Category               | Count   | Percentage |
 | ---------------------- | ------- | ---------- |
-| Word-Definition Pairs  | 171,100 | 100%       |
-| Pairs with Examples    | 171,100 | 100%       |
+| Word-Definition Pairs  | 171,072 | 100%       |
+| Pairs with Examples    | 171,072 | 100%       |
 | Pairs Missing Examples | 0       | 0%         |
 
 ### Pronunciation Coverage
 
 | Category          | Count   | Percentage |
 | ----------------- | ------- | ---------- |
-| Total Words       | 101,216 | 100%       |
-| Words with IPA    | 79,879  | 78.92%     |
-| Words without IPA | 21,337  | 21.08%     |
+| Total Words       | 101,204 | 100%       |
+| Words with IPA    | 101,204 | 100%       |
+| Words without IPA | 0       | 0%         |
 
-IPA coverage varies because pronunciation data is not available for every entry.
+All English words now have 100% IPA coverage with 0 missing records.
 
 ### Database File Characteristics
 
@@ -124,28 +128,29 @@ IPA coverage varies because pronunciation data is not available for every entry.
 | Compression | Uncompressed |
 | Page Size   | 4096 bytes   |
 | Encoding    | UTF-8        |
-| File Size   | ~43 MB       |
+| File Size   | ~45 MB       |
 
 ### Table Sizes
 
 | Table            | Record Count |
 | ---------------- | ------------ |
-| words            | 101,216      |
-| definitions      | 153,869      |
-| word_definitions | 171,100      |
-| pronunciations   | 83,854       |
+| words            | 101,204      |
+| definitions      | 153,841      |
+| word_definitions | 171,072      |
+| pronunciations   | 105,179      |
 
 ### Optimization Summary
 
 - Dictionary cleanup: Deleted corrupted entries and approved foreign/transliteration entries.
 - Normalized apostrophes across all headwords.
-- Learner-friendly example sentences (generated and validated)
-- Added and fix numerous IPA data compared to the original minhqnd source
-- Fix 15,000+ headwords issue from the original dictionary
-- Spell-checking pipeline and remove unused `definitions.links` column
-- Removed 270,000+ orphaned definition rows (no `word_definitions` link) + noise words (non-ASCII or containing special chars: `$%!&=[]{}@#^*~\|`)
-- Dropped `sqlite_stat1` / `sqlite_stat4` analysis tables
-- Ran `VACUUM` to eliminate free-page bloat
+- Learner-friendly example sentences (generated and validated).
+- Added and fixed numerous IPA data compared to the original minhqnd source.
+- Fixed 15,000+ headwords issue from the original dictionary.
+- Spell-checking pipeline and removed unused `definitions.links` column.
+- Removed 270,000+ orphaned definition rows (no `word_definitions` link) + noise words (non-ASCII or containing special chars: `$%!&=[]{}@#^*~\|`).
+- Resolved all missing English IPAs.
+- Dropped `sqlite_stat1` / `sqlite_stat4` analysis tables.
+- Ran `VACUUM` to eliminate free-page bloat.
 
 ---
 

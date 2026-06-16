@@ -2,39 +2,39 @@
 
 **Tiếng Việt** | [English](README.en.md)
 
-**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 101,216 từ vựng và 153,869 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ**, kích thước siêu nhẹ chỉ khoảng 43 MB, không cần kết nối internet.
+**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 101,029 từ tiếng Anh (và 175 từ tiếng Việt) cùng 153,841 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ và 100% độ bao phủ phát âm IPA**, kích thước siêu nhẹ chỉ khoảng 45 MB, không cần kết nối internet.
 
 Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), dự án xử lý ngôn ngữ tự nhiên (NLP), AI, và tích hợp mobile/web app.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Words](https://img.shields.io/badge/Words-101.2k+-green)
-![Definitions](https://img.shields.io/badge/Definitions-153.9k+-orange)
-![IPA](https://img.shields.io/badge/IPA-83.9k+-informational)
-![Examples](https://img.shields.io/badge/Examples-171.1k+-purple)
+![Words](https://img.shields.io/badge/Words-101k+-green)
+![Definitions](https://img.shields.io/badge/Definitions-153.8k+-orange)
+![IPA](https://img.shields.io/badge/IPA-100%25-green)
+![Examples](https://img.shields.io/badge/Examples-171k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Điểm khác biệt cốt lõi:** Phiên bản này đã bổ sung đầy đủ **171,100 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa rất nhiều lỗi các mục từ và IPA, đồng thời tối ưu giảm dung lượng từ 170MB xuống chỉ còn 43MB.
+> **Điểm khác biệt cốt lõi:** Phiên bản này được làm phong phú hoàn toàn với tổng cộng **171,072 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa đổi nhiều lỗi mục từ và giải quyết các lỗi IPA cũng như phiên âm IPA bị thiếu. Ngoài ra, chúng tôi tối ưu hóa kích thước tệp SQLite chỉ còn khoảng 45 MB.
 
 ---
 
 ## ✨ Tính Năng Nổi Bật
 
-- 📚 **101,216 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
-- 🔤 **153,869 định nghĩa tiếng Việt** chính xác.
-- 🔊 **83,854 phiên âm IPA** trên **79,879 từ có IPA** (độ bao phủ 78.92%).
-- 💬 **171,100 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
-- 🚀 **Siêu nhẹ chỉ 43 MB**: Dễ dàng nhúng vào các ứng dụng di động.
-- 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ (Python, Node.js, C#, Java, Flutter...).
-- 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API, không cần internet.
-- ✅ **Chất lượng Production**: Đã qua bước kiểm tra chính tả, xác thực từ, loại bỏ rác và trùng lặp.
+- 📚 **101,029 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
+- 🔤 **153,841 định nghĩa tiếng Việt** chính xác.
+- 🔊 **105,179 phiên âm IPA** trên tất cả các từ (độ bao phủ IPA đạt 100%).
+- 💬 **171,072 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
+- 🚀 **Siêu nhẹ (45 MB)**: Dễ dàng tích hợp vào các ứng dụng di động.
+- 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ lập trình (Python, Node.js, C#, Java, Flutter...).
+- 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API hoặc kết nối internet.
+- ✅ **Chất lượng Production**: Đã qua kiểm tra chính tả, xác thực từ, loại bỏ trùng lặp và không chứa các từ không hợp lệ hoặc các định nghĩa không còn sử dụng.
 
 ## 📊 Thống Kê Dữ Liệu
 
-- **Cặp từ-định nghĩa:** 171,100
-- **Câu ví dụ:** 171,100 (100% coverage)
-- **Phiên âm IPA:** 83,854 (79,879 từ có IPA, 78.92% coverage)
-- **Kích thước CSDL:** 43 MB
+- **Cặp từ-định nghĩa:** 171,072
+- **Câu ví dụ:** 171,072 (độ bao phủ 100%)
+- **Phiên âm IPA:** 105,179 (độ bao phủ 100%, 0 bản ghi bị thiếu)
+- **Kích thước CSDL:** khoảng 45 MB
 
 > [!TIP]
 > Xem thêm tại [`stats.md`](stats.md) để biết chi tiết quá trình làm sạch dữ liệu và tối ưu hóa database.
@@ -50,10 +50,10 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 
 Dự án được xây dựng dựa trên bản gốc của **[Từ điển MinhQND](https://github.com/minhqnd/dictionary)** (CC BY-SA 4.0), kèm theo các nâng cấp mạnh mẽ:
 
-- Bổ sung câu ví dụ thân thiện với người học (100% coverage, đã xác thực).
+- Bổ sung các câu ví dụ thân thiện với người học (độ bao phủ 100%).
 - Chuẩn hóa và thêm phiên âm IPA.
-- Dùng **[OVDP](https://sourceforge.net/projects/ovdp/)** để sửa hơn 20,000 mục từ tiếng Anh bị lỗi.
-- Dọn dẹp dữ liệu: xóa rất nhiều định nghĩa không dùng trong database và các mục từ hai từ/ordinal. Đồng thời, nhiều dữ liệu phát âm cũng được chuẩn hóa và bổ sung cho CSDL.
+- Sử dụng **[OVDP](https://sourceforge.net/projects/ovdp/)** để sửa đổi hơn 15,000 mục từ tiếng Anh bị lỗi.
+- Dọn dẹp dữ liệu: loại bỏ nhiều từ không hợp lệ và các định nghĩa không còn sử dụng và liên quan. Chuẩn hóa và điền đầy đủ tất cả các phiên âm IPA tiếng Anh bị thiếu.
 
 **Nguồn tham khảo gốc:** Từ điển MinhQND, Wiktionary, vntk/dictionary, Từ điển Tiếng Việt Hồ Ngọc Đức, WikDict.
 Xem [`ATTRIBUTION.md`](ATTRIBUTION.md) để đọc đầy đủ các giấy phép liên quan.
