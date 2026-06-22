@@ -2,7 +2,7 @@
 
 [Tiếng Việt](README.md) | **English**
 
-**Offline and Free English-Vietnamese dictionary database** featuring 101,029 English words (plus 175 Vietnamese words) and 153,841 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 45 MB, and requires zero internet connection.
+**Offline and Free English-Vietnamese dictionary database** featuring 101,029 English words (plus 175 Vietnamese words) and 153,841 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 41 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
@@ -14,7 +14,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **171,072 standard example sentences** for ALL definitions, corrects numerous entry and resolves IPA errors as well as missing IPA pronunciations. In additionally, we optimizes the SQLite file size to just about 45 MB.
+> **Core Difference:** This version is fully enriched with **171,072 standard example sentences** for ALL definitions, corrects numerous entry and resolves IPA errors as well as missing IPA pronunciations. In additionally, we optimizes the SQLite file size to just about 41 MB.
 
 ---
 
@@ -22,9 +22,9 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 
 - 📚 **101,029 English words** with full Vietnamese definitions.
 - 🔤 **153,841 accurate Vietnamese definitions**.
-- 🔊 **105,179 IPA pronunciations** on all words (100% IPA coverage).
+- 🔊 **105,112 IPA pronunciations** on all words (100% IPA coverage).
 - 💬 **171,072 example sentences** (100% coverage - every definition has at least one example).
-- 🚀 **Ultra-lightweight (45 MB)**: Easy to embed into mobile applications.
+- 🚀 **Ultra-lightweight (41 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
 - ✅ **Production-ready**: Spell-checked, validated, deduplicated, and free of invalid entries or orphaned definitions.
@@ -33,8 +33,8 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 
 - **Word-Definition Pairs:** 171,072
 - **Example Sentences:** 171,072 (100% coverage)
-- **IPA Pronunciations:** 105,179 (100% coverage, 0 missing records)
-- **Database Size:** about 45 MB
+- **IPA Pronunciations:** 105,112 (100% coverage, 0 missing records)
+- **Database Size:** about 41 MB
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.

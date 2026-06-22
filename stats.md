@@ -15,9 +15,9 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Tổng số từ               | 101,204  |
 | Định nghĩa tiếng Việt    | 153,841  |
 | Cặp từ-định nghĩa        | 171,072  |
-| Phiên âm IPA             | 105,179  |
+| Phiên âm IPA             | 105,112  |
 | Câu ví dụ                | 171,072  |
-| Kích thước cơ sở dữ liệu | ~45 MB   |
+| Kích thước cơ sở dữ liệu | ~41 MB   |
 
 ### Phạm vi định nghĩa
 
@@ -43,7 +43,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Nén              | Không nén |
 | Kích thước trang | 4096 byte |
 | Mã hóa           | UTF-8     |
-| Kích thước tệp   | ~45 MB    |
+| Kích thước tệp   | ~41 MB    |
 
 ### Kích thước bảng
 
@@ -52,7 +52,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | words            | 101,204    |
 | definitions      | 153,841    |
 | word_definitions | 171,072    |
-| pronunciations   | 105,179    |
+| pronunciations   | 105,112    |
 
 ### Tóm tắt tối ưu hóa
 
@@ -98,9 +98,9 @@ This SQLite dictionary database contains comprehensive English-Vietnamese transl
 | Total Words            | 101,204 |
 | Vietnamese Definitions | 153,841 |
 | Word-Definition Pairs  | 171,072 |
-| IPA Pronunciations     | 105,179 |
+| IPA Pronunciations     | 105,112 |
 | Example Sentences      | 171,072 |
-| Database Size          | ~45 MB  |
+| Database Size          | ~41 MB  |
 
 ### Definition Coverage
 
@@ -128,7 +128,7 @@ All English words now have 100% IPA coverage with 0 missing records.
 | Compression | Uncompressed |
 | Page Size   | 4096 bytes   |
 | Encoding    | UTF-8        |
-| File Size   | ~45 MB       |
+| File Size   | ~41 MB       |
 
 ### Table Sizes
 
@@ -137,7 +137,7 @@ All English words now have 100% IPA coverage with 0 missing records.
 | words            | 101,204      |
 | definitions      | 153,841      |
 | word_definitions | 171,072      |
-| pronunciations   | 105,179      |
+| pronunciations   | 105,112      |
 
 ### Optimization Summary
 
