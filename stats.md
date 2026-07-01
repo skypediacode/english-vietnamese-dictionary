@@ -10,13 +10,13 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 
 | Chỉ số                   | Số lượng |
 | ------------------------ | -------- |
-| Từ tiếng Anh             | 101,029  |
+| Từ tiếng Anh             | 103,238  |
 | Từ tiếng Việt            | 175      |
-| Tổng số từ               | 101,204  |
-| Định nghĩa tiếng Việt    | 153,841  |
-| Cặp từ-định nghĩa        | 171,072  |
-| Phiên âm IPA             | 105,112  |
-| Câu ví dụ                | 171,072  |
+| Tổng số từ               | 103,413  |
+| Định nghĩa tiếng Việt    | 156,691  |
+| Cặp từ-định nghĩa        | 174,289  |
+| Phiên âm IPA             | 107,321  |
+| Câu ví dụ                | 174,289  |
 | Kích thước cơ sở dữ liệu | ~41 MB   |
 
 ### Phạm vi định nghĩa

@@ -2,28 +2,28 @@
 
 **Tiếng Việt** | [English](README.en.md)
 
-**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 101,029 từ tiếng Anh (và 175 từ tiếng Việt) cùng 153,841 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ và 100% độ bao phủ phát âm IPA**, kích thước siêu nhẹ chỉ khoảng 41 MB, không cần kết nối internet.
+**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 103,238 từ tiếng Anh (và 175 từ tiếng Việt) cùng 156,691 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ và 100% độ bao phủ phát âm IPA**, kích thước siêu nhẹ chỉ khoảng 41 MB, không cần kết nối internet.
 
 Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), dự án xử lý ngôn ngữ tự nhiên (NLP), AI, và tích hợp mobile/web app.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Words](https://img.shields.io/badge/Words-101k+-green)
-![Definitions](https://img.shields.io/badge/Definitions-153.8k+-orange)
+![Words](https://img.shields.io/badge/Words-103k+-green)
+![Definitions](https://img.shields.io/badge/Definitions-156.6k+-orange)
 ![IPA](https://img.shields.io/badge/IPA-100%25-green)
 ![Examples](https://img.shields.io/badge/Examples-171k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Điểm khác biệt cốt lõi:** Phiên bản này được làm phong phú hoàn toàn với tổng cộng **171,072 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa đổi nhiều lỗi mục từ và giải quyết các lỗi IPA cũng như phiên âm IPA bị thiếu. Ngoài ra, chúng tôi tối ưu hóa kích thước tệp SQLite chỉ còn khoảng 41 MB.
+> **Điểm khác biệt cốt lõi:** Phiên bản này được làm phong phú hoàn toàn với tổng cộng **174,289 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa, sửa đổi nhiều lỗi mục từ và giải quyết các lỗi IPA cũng như phiên âm IPA bị thiếu. Ngoài ra, chúng tôi tối ưu hóa kích thước tệp SQLite chỉ còn khoảng 41 MB.
 
 ---
 
 ## ✨ Tính Năng Nổi Bật
 
-- 📚 **101,029 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
-- 🔤 **153,841 định nghĩa tiếng Việt** chính xác.
-- 🔊 **105,112 phiên âm IPA** trên tất cả các từ (độ bao phủ IPA đạt 100%).
-- 💬 **171,072 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
+- 📚 **103,238 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
+- 🔤 **156,691 định nghĩa tiếng Việt** chính xác.
+- 🔊 **107,321 phiên âm IPA** trên tất cả các từ (độ bao phủ IPA đạt 100%).
+- 💬 **174,289 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 ví dụ).
 - 🚀 **Siêu nhẹ (41 MB)**: Dễ dàng tích hợp vào các ứng dụng di động.
 - 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ lập trình (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API hoặc kết nối internet.
@@ -31,9 +31,9 @@ Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), d
 
 ## 📊 Thống Kê Dữ Liệu
 
-- **Cặp từ-định nghĩa:** 171,072
-- **Câu ví dụ:** 171,072 (độ bao phủ 100%)
-- **Phiên âm IPA:** 105,112 (độ bao phủ 100%, 0 bản ghi bị thiếu)
+- **Cặp từ-định nghĩa:** 174,289
+- **Câu ví dụ:** 174,289 (độ bao phủ 100%)
+- **Phiên âm IPA:** 107,321 (độ bao phủ 100%, 0 bản ghi bị thiếu)
 - **Kích thước CSDL:** khoảng 41 MB
 
 > [!TIP]
