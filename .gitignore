@@ -16,3 +16,5 @@ Thumbs.db
 # Temporary directories
 temp/
 tmp/
+update_stats.py
+update_readmes.py
