@@ -2,7 +2,7 @@
 
 [Tiếng Việt](README.md) | **English**
 
-**Offline and Free English-Vietnamese dictionary database** featuring 104,554 English words (plus 175 Vietnamese words) and 158,044 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 41.2 MB, and requires zero internet connection.
+**Offline and Free English-Vietnamese dictionary database** featuring 104,554 English words (plus 175 Vietnamese words) and 158,044 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 42.1 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
@@ -14,7 +14,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **175,641 standard example sentences** for ALL definitions, corrects numerous entry and resolves IPA errors as well as missing IPA pronunciations. In additionally, we optimizes the SQLite file size to just about 41.2 MB.
+> **Core Difference:** This version is fully enriched with **175,641 standard example sentences** for ALL definitions (including 18,636 fragment examples upgraded to complete, exact-headword sentences), corrects numerous entries, and resolves IPA errors as well as missing IPA pronunciations. Additionally, we optimized the SQLite file size to just about 42.1 MB.
 
 ---
 
@@ -23,8 +23,8 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 - 📚 **104,554 English words** with full Vietnamese definitions.
 - 🔤 **158,044 accurate Vietnamese definitions**.
 - 🔊 **108,671 IPA pronunciations** on all words (100% IPA coverage).
-- 💬 **175,641 example sentences** (100% coverage - every definition has at least one example).
-- 🚀 **Ultra-lightweight (41.2 MB)**: Easy to embed into mobile applications.
+- 💬 **175,641 example sentences** (100% coverage - every definition has at least one complete example sentence with exact headword).
+- 🚀 **Ultra-lightweight (42.1 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
 - ✅ **Production-ready**: Spell-checked, validated, deduplicated, and free of invalid entries or orphaned definitions.
@@ -34,7 +34,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 - **Word-Definition Pairs:** 175,641
 - **Example Sentences:** 175,641 (100% coverage)
 - **IPA Pronunciations:** 108,671 (100% coverage, 0 missing records)
-- **Database Size:** about 41.2 MB
+- **Database Size:** about 42.1 MB
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.
@@ -50,7 +50,7 @@ The perfect solution for vocabulary learning apps (flashcards), Natural Language
 
 Built upon the original **[MinhQND Dictionary](https://github.com/minhqnd/dictionary)** (CC BY-SA 4.0), with powerful enhancements:
 
-- Added learner-friendly example sentences (100% coverage, validated).
+- Added and upgraded learner-friendly example sentences (100% coverage, 18,636 fragment examples replaced with complete exact-headword sentences).
 - Standardized and added IPA pronunciations.
 - Used **[OVDP](https://sourceforge.net/projects/ovdp/)** to fix over 15,000 corrupted English entries.
 - Added over 1,350 of the most common English idioms and over 3000 phrasal verbs with natural Vietnamese translations, examples, and Oxford IPA.

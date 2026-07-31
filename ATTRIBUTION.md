@@ -13,11 +13,11 @@ This project transforms and enhances the MinhQND data with additional example se
 **Contributions:**
 
 - Database processing and SQLite schema design
-- Example sentence generation
+- Example sentence generation & standardization (replaced 18,636 fragment examples with complete exact-headword sentences)
 - IPA fix for the original minhqnd data
 - Local IPA backfill and database-wide pronunciation audit, resolving all missing English IPAs (100% coverage) using a safe G2P pipeline (lemmatization, affix stripping, and compound-word part-joining, backed by `g2p_en` neural fallback and an Oxford-compliant ARPAbet-to-IPA mapper).
 - **Headword validation and correction:** Used [OVDP (Open Vietnamese Dictionary Project)](https://sourceforge.net/projects/ovdp/) as reference to correct over 15,000 corrupted English headwords, including plural-to-singular normalization and common spelling errors (e.g., y → i)
-- Database optimization: removed invalid words, orphaned definitions, double-word/ordinal entries, noise words, unused columns, standardized pronunciations, and applied VACUUM (database now ~41 MB from the original 170 MB)
+- Database optimization: removed invalid words, orphaned definitions, double-word/ordinal entries, noise words, unused columns, standardized pronunciations, and applied VACUUM (database now ~42 MB from the original 170 MB)
 - Repository creation and documentation
 
 This version builds upon and enhances the upstream sources through data curation, validation, and transformation into a comprehensive, queryable SQLite database.
@@ -82,9 +82,9 @@ This dataset has undergone:
 - **Validation:** Verification of English-Vietnamese translation pairs
 - **Spell-checking:** Pipeline to detect and fix 4,444 spelling errors
 - **IPA fix:** Corrected IPA data from the original minhqnd source and resolved all missing English IPAs to achieve 100.0% coverage database-wide using a custom G2P neural-fallback pipeline.
-- **Enrichment:** Addition of example sentences for educational use
+- **Enrichment:** Addition and enhancement of example sentences for educational use (upgraded 18,636 fragment examples to complete sentences containing exact headwords)
 - **Formatting:** Normalization for SQLite storage and efficient querying
-- **Optimization:** Removed invalid words and orphaned definitions, double-word/ordinal entries, standardized pronunciations, dropped unused columns and analysis tables, VACUUM applied (database now ~41 MB from the original 170 MB)
+- **Optimization:** Removed invalid words and orphaned definitions, double-word/ordinal entries, standardized pronunciations, dropped unused columns and analysis tables, VACUUM applied (database now ~42 MB from the original 170 MB)
 
 ### Example Sentences
 

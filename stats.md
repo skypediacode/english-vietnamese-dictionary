@@ -17,7 +17,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Cặp từ-định nghĩa        | 175,641  |
 | Phiên âm IPA             | 108,671  |
 | Câu ví dụ                | 175,641  |
-| Kích thước cơ sở dữ liệu | ~41.2 MB |
+| Kích thước cơ sở dữ liệu | ~42.1 MB |
 
 ### Phạm vi định nghĩa
 
@@ -43,7 +43,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 | Nén              | Không nén |
 | Kích thước trang | 4096 byte |
 | Mã hóa           | UTF-8     |
-| Kích thước tệp   | ~41.2 MB  |
+| Kích thước tệp   | ~42.1 MB  |
 
 ### Kích thước bảng
 
@@ -58,7 +58,7 @@ Cơ sở dữ liệu từ điển SQLite này chứa dữ liệu dịch tiếng 
 
 - Dọn dẹp từ điển: xóa các mục từ bị lỗi/hỏng (corrupted entries) và các từ mượn/phiên âm tiếng nước ngoài (foreign/transliteration entries).
 - Chuẩn hóa ký tự dấu nháy đơn (apostrophes) đối với tất cả các mục từ (headwords).
-- Thêm các câu ví dụ tiếng Anh dễ hiểu cho người học (AI tạo và xác thực).
+- Thêm các câu ví dụ tiếng Anh dễ hiểu cho người học (chuẩn hóa và thay thế 18,636 ví dụ dạng fragment/mảnh thành các câu hoàn chỉnh chứa chính xác từ mục từ).
 - Đã thêm và sửa rất nhiều dữ liệu IPA so với nguồn minhqnd gốc.
 - Khắc phục lỗi sai từ của 15.000+ từ trong từ điển gốc (ví dụ abiliti, fluentli --> ability, fluently hay số nhiều zippers --> zipper).
 - Kiểm tra chính tả (spelling) + loại bỏ cột `definitions.links` không sử dụng.
@@ -101,7 +101,7 @@ This SQLite dictionary database contains comprehensive English-Vietnamese transl
 | Word-Definition Pairs  | 175,641  |
 | IPA Pronunciations     | 108,671  |
 | Example Sentences      | 175,641  |
-| Database Size          | ~41.2 MB |
+| Database Size          | ~42.1 MB |
 
 ### Definition Coverage
 
@@ -129,7 +129,7 @@ All English words now have 100% IPA coverage with 0 missing records.
 | Compression | Uncompressed |
 | Page Size   | 4096 bytes   |
 | Encoding    | UTF-8        |
-| File Size   | ~41.2 MB     |
+| File Size   | ~42.1 MB     |
 
 ### Table Sizes
 
@@ -144,7 +144,7 @@ All English words now have 100% IPA coverage with 0 missing records.
 
 - Dictionary cleanup: Deleted corrupted entries and approved foreign/transliteration entries.
 - Normalized apostrophes across all headwords.
-- Learner-friendly example sentences (generated and validated).
+- Learner-friendly example sentences (replaced 18,636 fragment examples with complete sentences containing exact headwords).
 - Added and fixed numerous IPA data compared to the original minhqnd source.
 - Fixed 15,000+ headwords issue from the original dictionary.
 - Spell-checking pipeline and removed unused `definitions.links` column.
