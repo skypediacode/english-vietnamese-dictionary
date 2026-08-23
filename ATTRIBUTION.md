@@ -17,6 +17,7 @@ This project transforms and enhances the MinhQND data with additional example se
 - IPA fix for the original minhqnd data
 - Local IPA backfill and database-wide pronunciation audit, resolving all missing English IPAs (100% coverage) using a safe G2P pipeline (lemmatization, affix stripping, and compound-word part-joining, backed by `g2p_en` neural fallback and an Oxford-compliant ARPAbet-to-IPA mapper).
 - **Headword validation and correction:** Used [OVDP (Open Vietnamese Dictionary Project)](https://sourceforge.net/projects/ovdp/) as reference to correct over 15,000 corrupted English headwords, including plural-to-singular normalization and common spelling errors (e.g., y → i)
+- **Vocabulary & Idiom Enrichment:** Enriched the database with essential Starter Set vocabulary, over 1,350 common idioms, over 3,000 phrasal verbs, and core verb clusters (*make, get, look, come, take, put, turn, give, keep, bring, go, run, set, call, break, fall, hold*), complete with natural Vietnamese translations, Oxford IPA, and examples.
 - Database optimization: removed invalid words, orphaned definitions, double-word/ordinal entries, noise words, unused columns, standardized pronunciations, and applied VACUUM (database now ~42 MB from the original 170 MB)
 - Repository creation and documentation
 

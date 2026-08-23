@@ -2,39 +2,39 @@
 
 [Tiếng Việt](README.md) | **English**
 
-**Offline and Free English-Vietnamese dictionary database** featuring 104,554 English words (plus 175 Vietnamese words) and 158,044 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 42.1 MB, and requires zero internet connection.
+**Offline and Free English-Vietnamese dictionary database** featuring 104,829 English words and expressions along with 158,307 detailed definitions. Specially optimized with **100% example sentence coverage and 100% IPA coverage**, an ultra-lightweight size of about 42.2 MB, and requires zero internet connection.
 
 The perfect solution for vocabulary learning apps (flashcards), Natural Language Processing (NLP) projects, AI training, and mobile/web app integration.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Words](https://img.shields.io/badge/Words-104k+-green)
-![Definitions](https://img.shields.io/badge/Definitions-158k+-orange)
+![Words](https://img.shields.io/badge/Words-104.8k+-green)
+![Definitions](https://img.shields.io/badge/Definitions-158.3k+-orange)
 ![IPA](https://img.shields.io/badge/IPA-100%25-green)
-![Examples](https://img.shields.io/badge/Examples-175.6k+-purple)
+![Examples](https://img.shields.io/badge/Examples-175.7k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Core Difference:** This version is fully enriched with **175,641 standard example sentences** for ALL definitions (including 18,636 fragment examples upgraded to complete, exact-headword sentences), corrects numerous entries, and resolves IPA errors as well as missing IPA pronunciations. Additionally, we optimized the SQLite file size to just about 42.1 MB.
+> **Core Difference:** This version is fully enriched with **175,735 standard example sentences** for ALL definitions (including 18,636 fragment examples upgraded to complete, exact-headword sentences), corrects numerous entries, comprehensive enrichment of high-frequency phrasal verbs, idioms, and core verb clusters, and resolves all IPA errors. Additionally, we optimized the SQLite file size to just about 42.2 MB.
 
 ---
 
 ## ✨ Key Features
 
-- 📚 **104,554 English words** with full Vietnamese definitions.
-- 🔤 **158,044 accurate Vietnamese definitions**.
-- 🔊 **108,671 IPA pronunciations** on all words (100% IPA coverage).
-- 💬 **175,641 example sentences** (100% coverage - every definition has at least one complete example sentence with exact headword).
-- 🚀 **Ultra-lightweight (42.1 MB)**: Easy to embed into mobile applications.
+- 📚 **104,829 English words & phrases** with full Vietnamese definitions.
+- 🔤 **158,307 accurate Vietnamese definitions**.
+- 🔊 **108,776 IPA pronunciations** on all words (100% IPA coverage).
+- 💬 **175,735 example sentences** (100% coverage - every definition has at least one complete example sentence with exact headword).
+- 🚀 **Ultra-lightweight (42.2 MB)**: Easy to embed into mobile applications.
 - 📦 **Zero dependencies**: Compatible with any programming language (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Offline**: No API calls or internet required.
 - ✅ **Production-ready**: Spell-checked, validated, deduplicated, and free of invalid entries or orphaned definitions.
 
 ## 📊 Data Statistics
 
-- **Word-Definition Pairs:** 175,641
-- **Example Sentences:** 175,641 (100% coverage)
-- **IPA Pronunciations:** 108,671 (100% coverage, 0 missing records)
-- **Database Size:** about 42.1 MB
+- **Word-Definition Pairs:** 175,735
+- **Example Sentences:** 175,735 (100% coverage)
+- **IPA Pronunciations:** 108,776 (100% coverage, 0 missing records)
+- **Database Size:** about 42.2 MB
 
 > [!TIP]
 > See [`stats.md`](stats.md) for detailed information on the data cleaning and optimization process.
@@ -144,6 +144,6 @@ LIMIT 10;
 
 This database and repository are licensed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Details [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
-**Author**: [Skypedia](skypediacode@gmail.com)
+**Author**: [Skypedia](mailto:skypediacode@gmail.com)
 
 **📊 [View Statistics](stats.md) | 📄 [View Database Schema](schema.sql)**

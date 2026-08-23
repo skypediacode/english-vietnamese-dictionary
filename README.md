@@ -2,39 +2,39 @@
 
 **Tiếng Việt** | [English](README.en.md)
 
-**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 104,554 từ tiếng Anh (và 175 từ tiếng Việt) cùng 158,044 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ và 100% độ bao phủ phát âm IPA**, kích thước siêu nhẹ chỉ khoảng 42.1 MB, không cần kết nối internet.
+**Cơ sở dữ liệu từ điển tiếng Anh – tiếng Việt ngoại tuyến (offline) và miễn phí** với 104,829 từ và cụm từ tiếng Anh cùng 158,307 định nghĩa chi tiết. Đặc biệt tối ưu với **100% định nghĩa có câu ví dụ và 100% độ bao phủ phát âm IPA**, kích thước siêu nhẹ chỉ khoảng 42.2 MB, không cần kết nối internet.
 
 Giải pháp hoàn hảo cho các ứng dụng học từ vựng (flashcards), dự án xử lý ngôn ngữ tự nhiên (NLP), AI, và tích hợp mobile/web app.
 
 ![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![Words](https://img.shields.io/badge/Words-104k+-green)
-![Definitions](https://img.shields.io/badge/Definitions-158k+-orange)
+![Words](https://img.shields.io/badge/Words-104.8k+-green)
+![Definitions](https://img.shields.io/badge/Definitions-158.3k+-orange)
 ![IPA](https://img.shields.io/badge/IPA-100%25-green)
-![Examples](https://img.shields.io/badge/Examples-175.6k+-purple)
+![Examples](https://img.shields.io/badge/Examples-175.7k+-purple)
 ![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 
 > [!IMPORTANT]
-> **Điểm khác biệt cốt lõi:** Phiên bản này được làm phong phú hoàn toàn với tổng cộng **175,641 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa (đã nâng cấp và thay thế 18,636 ví dụ từ dạng mảnh/cụm từ thành các câu hoàn chỉnh chứa chính xác từ mục từ), sửa đổi nhiều lỗi mục từ và giải quyết các lỗi IPA cũng như phiên âm IPA bị thiếu. Ngoài ra, chúng tôi tối ưu hóa kích thước tệp SQLite chỉ còn khoảng 42.1 MB.
+> **Điểm khác biệt cốt lõi:** Phiên bản này được làm phong phú hoàn toàn với tổng cộng **175,735 câu ví dụ chuẩn** cho TẤT CẢ các định nghĩa (đã nâng cấp và thay thế 18,636 ví dụ từ dạng mảnh/cụm từ thành các câu hoàn chỉnh chứa chính xác từ mục từ), làm giàu toàn diện phrasal verbs, idioms và các cụm động từ cốt lõi, sửa đổi nhiều lỗi mục từ và giải quyết triệt để các lỗi phiên âm IPA. Ngoài ra, tệp SQLite được tối ưu hóa chỉ còn khoảng 42.2 MB.
 
 ---
 
 ## ✨ Tính Năng Nổi Bật
 
-- 📚 **104,554 từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
-- 🔤 **158,044 định nghĩa tiếng Việt** chính xác.
-- 🔊 **108,671 phiên âm IPA** trên tất cả các từ (độ bao phủ IPA đạt 100%).
-- 💬 **175,641 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 câu ví dụ chuẩn chứa chính xác từ mục từ).
-- 🚀 **Siêu nhẹ (42.1 MB)**: Dễ dàng tích hợp vào các ứng dụng di động.
+- 📚 **104,829 từ và cụm từ tiếng Anh** với định nghĩa tiếng Việt đầy đủ.
+- 🔤 **158,307 định nghĩa tiếng Việt** chính xác.
+- 🔊 **108,776 phiên âm IPA** trên tất cả các từ (độ bao phủ IPA đạt 100%).
+- 💬 **175,735 câu ví dụ** (độ bao phủ 100% - mỗi định nghĩa đều có ít nhất 1 câu ví dụ chuẩn chứa chính xác từ mục từ).
+- 🚀 **Siêu nhẹ (42.2 MB)**: Dễ dàng tích hợp vào các ứng dụng di động.
 - 📦 **Không phụ thuộc**: Tương thích mọi ngôn ngữ lập trình (Python, Node.js, C#, Java, Flutter...).
 - 🔓 **100% Ngoại tuyến (Offline)**: Không cần gọi API hoặc kết nối internet.
 - ✅ **Chất lượng Production**: Đã qua kiểm tra chính tả, xác thực từ, loại bỏ trùng lặp và không chứa các từ không hợp lệ hoặc các định nghĩa không còn sử dụng.
 
 ## 📊 Thống Kê Dữ Liệu
 
-- **Cặp từ-định nghĩa:** 175,641
-- **Câu ví dụ:** 175,641 (độ bao phủ 100%)
-- **Phiên âm IPA:** 108,671 (độ bao phủ 100%, 0 bản ghi bị thiếu)
-- **Kích thước CSDL:** khoảng 42.1 MB
+- **Cặp từ-định nghĩa:** 175,735
+- **Câu ví dụ:** 175,735 (độ bao phủ 100%)
+- **Phiên âm IPA:** 108,776 (độ bao phủ 100%, 0 bản ghi bị thiếu)
+- **Kích thước CSDL:** khoảng 42.2 MB
 
 > [!TIP]
 > Xem thêm tại [`stats.md`](stats.md) để biết chi tiết quá trình làm sạch dữ liệu và tối ưu hóa database.
